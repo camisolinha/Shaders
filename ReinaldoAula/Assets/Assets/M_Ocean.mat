@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 863e213bab0319847ab38d746667328a, type: 3}
+  m_Name: M_Ocean
+  m_Shader: {fileID: 4800000, guid: f627f5e224dbb4a48aaa20985b9ab355, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -50,13 +50,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: a33c389cd9501b74daf83bc51603c09f, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
+        m_Texture: {fileID: 2800000, guid: 2cdaf56ea3e48f449a016b9f6362c136, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
         m_Texture: {fileID: 2800000, guid: 2cdaf56ea3e48f449a016b9f6362c136, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -106,6 +110,7 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _NormalScale: 1
+    - _NormalStrength: 0.48
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
@@ -116,8 +121,9 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _WaveAmplitude: 0.2
+    - _WaveAmplitude: 0.12
     - _WaveSpeed: 2
+    - _WaveStrength: 0.0691
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
