@@ -26,7 +26,7 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: a33c389cd9501b74daf83bc51603c09f, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Scale: {x: 7, y: 7}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 2800000, guid: 2cdaf56ea3e48f449a016b9f6362c136, type: 3}
@@ -36,7 +36,7 @@ Material:
     m_Floats:
     - _NormalStrength: 1
     - _WaveSpeed: 1.44
-    - _WaveStrength: 0.0299
+    - _WaveStrength: 0.0089
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
